@@ -7,7 +7,7 @@
  */
 static char *font = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts*/
-static char *font2[] = { "Symbola:pixelsize14:antialias=true:autohint=true" };
+static char *font2[] = { "Symbola:pixelsize10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
