@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:size=11:antialias=true:autohint=true";
 /* Spare fonts*/
-static char *font2[] = { "Symbola:pixelsize10:antialias=true:autohint=true" };
+static char *font2[] = { "Symbola:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -117,6 +117,7 @@ static const char *colorname[] = {
 	"#bb84e5",
 	"#6db0ad",
 	"#cccccc",
+
 
 	[255] = 0,
 
