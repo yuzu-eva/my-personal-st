@@ -8,7 +8,7 @@
 static char *font = "Hack Nerd Font:size=11:antialias=true:autohint=true";
 /* Spare fonts*/
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -217,7 +217,7 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,				XK_s,			changealpha,	{.f = -0.05} },
 	{ MODKEY,				XK_a,			changealpha,	{.f = +0.05} },
 	{ MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
-	{ MODKEY,               XK_c,           externalpipe,   {.v = copyurlcmd } },
+	{ MODKEY,               XK_y,           externalpipe,   {.v = copyurlcmd } },
 };
 
 /*
